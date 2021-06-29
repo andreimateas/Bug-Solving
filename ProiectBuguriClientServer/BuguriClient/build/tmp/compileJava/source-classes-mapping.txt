@@ -1,0 +1,25 @@
+client/ClientFX.java
+ client.ClientFX
+client/controller/SetUnsolvedController.java
+ client.controller.SetUnsolvedController
+client/controller/ModifyNameController.java
+ client.controller.ModifyNameController
+client/controller/TesterController.java
+ client.controller.TesterController
+ client.controller.TesterController$1
+ client.controller.TesterController$2
+ client.controller.TesterController$3
+ client.controller.TesterController$4
+ client.controller.TesterController$5
+client/controller/SolveBugController.java
+ client.controller.SolveBugController
+client/controller/ProgrammerController.java
+ client.controller.ProgrammerController
+ client.controller.ProgrammerController$1
+ client.controller.ProgrammerController$2
+ client.controller.ProgrammerController$3
+ client.controller.ProgrammerController$4
+client/controller/AddBugController.java
+ client.controller.AddBugController
+client/controller/LoginController.java
+ client.controller.LoginController

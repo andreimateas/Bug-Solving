@@ -1,0 +1,35 @@
+repository/BugRepository.java
+ repository.BugRepository
+domain/validator/Validator.java
+ domain.validator.Validator
+org/hibernate/dialect/SQLiteDialect.java
+ org.hibernate.dialect.SQLiteDialect
+ org.hibernate.dialect.SQLiteDialect$1
+ org.hibernate.dialect.SQLiteDialect$2
+ org.hibernate.dialect.SQLiteDialect$3
+ org.hibernate.dialect.SQLiteDialect$4
+ org.hibernate.dialect.SQLiteDialect$SQLiteUniqueDelegate
+repository/Repository.java
+ repository.Repository
+org/hibernate/dialect/identity/SQLiteDialectIdentityColumnSupport.java
+ org.hibernate.dialect.identity.SQLiteDialectIdentityColumnSupport
+domain/validator/ValidationException.java
+ domain.validator.ValidationException
+domain/Employee.java
+ domain.Employee
+domain/Tester.java
+ domain.Tester
+repository/BugDBRepository.java
+ repository.BugDBRepository
+domain/validator/BugValidator.java
+ domain.validator.BugValidator
+domain/Programmer.java
+ domain.Programmer
+domain/validator/EmployeeValidator.java
+ domain.validator.EmployeeValidator
+repository/EmployeeRepository.java
+ repository.EmployeeRepository
+domain/Bug.java
+ domain.Bug
+repository/EmployeeDBRepository.java
+ repository.EmployeeDBRepository

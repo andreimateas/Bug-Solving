@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="424.0" prefWidth="528.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.AddBugController">
+   <children>
+      <Label layoutX="32.0" layoutY="51.0" text="Enter bug name: " />
+      <Label layoutX="39.0" layoutY="222.0" text="Describe bug: " />
+      <TextField fx:id="newName" layoutX="126.0" layoutY="47.0" />
+      <TextArea fx:id="newDescription" layoutX="129.0" layoutY="102.0" prefHeight="257.0" prefWidth="376.0" />
+      <Button layoutX="237.0" layoutY="385.0" mnemonicParsing="false" onAction="#handleAddNewBug" text="Add" />
+   </children>
+</AnchorPane>
