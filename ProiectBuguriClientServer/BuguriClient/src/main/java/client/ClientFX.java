@@ -75,7 +75,7 @@ public class ClientFX extends Application {
             ctrl.setTesterController(testCtrl);
             ctrl.setParent(croot,droot);
 
-            primaryStage.setScene(new Scene(root, 500, 350));
+            primaryStage.setScene(new Scene(root));
             primaryStage.show();
         }catch (Exception e) {
             System.err.println("Client exception:"+e);

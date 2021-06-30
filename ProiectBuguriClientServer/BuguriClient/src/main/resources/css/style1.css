@@ -1,0 +1,39 @@
+.root {
+    -fx-background-image: url(photo-1520188740392-665a13f453fc.jpg);
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+.button {
+    -fx-text-fill: #000000;
+    -fx-font-family: Courier;
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#888888, #cfcfcf);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.label {
+    -fx-font-family: Courier;
+    -fx-font-size: 14px;
+    -fx-font-weight:bold;
+    -fx-text-fill: #000000;
+    -fx-effect: dropshadow( gaussian , rgba(255, 255, 255, 0.5), 0,0,0,1 );
+}
+.table-row-cell:selected {
+    -fx-background-color: #bdccf5;
+
+}
+.table-row-cell:selected .text {
+    -fx-fill: #031794;
+}
+.table-view{
+    -fx-background-color: #ffffff;
+}
+
+.table-row-cell{
+    -fx-background-color: #ffffff;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #7fbafc;
+}
+
+

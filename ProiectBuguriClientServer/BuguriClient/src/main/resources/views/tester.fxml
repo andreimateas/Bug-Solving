@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="557.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.TesterController">
+<AnchorPane prefHeight="557.0" prefWidth="1080.0" stylesheets="@../css/style2.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.TesterController">
    <children>
       <TabPane layoutX="-1.0" layoutY="-1.0" prefHeight="511.0" prefWidth="1080.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
@@ -34,7 +34,7 @@
                            </columns>
                         </TableView>
                         <Button layoutX="174.0" layoutY="441.0" mnemonicParsing="false" onAction="#handleRemoveBug" prefHeight="25.0" prefWidth="99.0" text="Remove bug" />
-                        <Button layoutX="401.0" layoutY="440.0" mnemonicParsing="false" onAction="#handleSetUnsolved" prefHeight="27.0" prefWidth="99.0" text="Set as unsolved" />
+                        <Button layoutX="401.0" layoutY="440.0" mnemonicParsing="false" onAction="#handleSetUnsolved" prefHeight="27.0" prefWidth="107.0" text="Set as unsolved" />
                         <TextArea fx:id="descriptionArea2T" editable="false" layoutX="711.0" layoutY="18.0" prefHeight="452.0" prefWidth="350.0" />
                         <Label layoutX="219.0" layoutY="7.0" prefHeight="38.0" prefWidth="198.0" />
                      </children></AnchorPane>

@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="133.0" prefWidth="337.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.ModifyNameController">
+<AnchorPane prefHeight="133.0" prefWidth="337.0" stylesheets="@../css/style2.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.ModifyNameController">
    <children>
       <Label layoutX="45.0" layoutY="41.0" text="New name:" />
       <TextField fx:id="modifiedName" layoutX="149.0" layoutY="37.0" />

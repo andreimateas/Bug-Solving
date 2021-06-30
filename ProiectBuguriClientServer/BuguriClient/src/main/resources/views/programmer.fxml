@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="472.0" prefWidth="846.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.ProgrammerController">
+<AnchorPane prefHeight="472.0" prefWidth="846.0" stylesheets="@../css/style2.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controller.ProgrammerController">
    <children>
       <Button layoutX="231.0" layoutY="414.0" mnemonicParsing="false" onAction="#handleSolveBugP" text="Solve bug" />
       <Label layoutX="246.0" layoutY="45.0" text="Bug list" />
